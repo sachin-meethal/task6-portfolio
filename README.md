@@ -36,12 +36,12 @@ portfolio/
 
 ---
 
-## 🚀 Features
-✅ Home page with a personal introduction and profile image  
-✅ Projects page listing completed work  
-✅ About page describing background and skills  
-✅ Contact page with a working form that saves messages to `contacts.csv`  
-✅ Clean and responsive layout using custom CSS  
+##  Features
+ Home page with a personal introduction and profile image  
+ Projects page listing completed work  
+ About page describing background and skills  
+ Contact page with a working form that saves messages to `contacts.csv`  
+ Clean and responsive layout using custom CSS  
 
 ---
 
@@ -83,4 +83,19 @@ Store data in CSV files
 Build and organize a basic Flask web project
 
 
+
+##  Screenshots
+
+###  Home Page
+![Home Page](Screenshot 2025-10-28 204620.png)
+
+###  Projects Page
+![Projects Page](Screenshot 2025-10-28 204733.png)
+
+###  About Page
+![About Page](Screenshot 2025-10-28 204748.png)
+
+
+###  Contact Page
+![Contact Page](Screenshot 2025-10-28 204843.png)
 

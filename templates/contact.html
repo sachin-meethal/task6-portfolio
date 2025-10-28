@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Contact</h2>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <ul class="flashes">
+      {% for category, msg in messages %}
+        <li class="flash {{ category }}">{{ msg }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<form action="{{ url_for('contact') }}" method="post" class="contact-form">
+  <label>Name</label>
+  <input type="text" name="name" required>
+  <label>Email</label>
+  <input type="email" name="email" required>
+  <label>Message</label>
+  <textarea name="message" rows="6" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+{% endblock %}

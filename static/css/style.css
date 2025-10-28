@@ -1,0 +1,20 @@
+:root{ --bg:#f5f6f7; --card:#fff; --accent:#007bff; --muted:#666; --maxw:900px; }
+*{box-sizing:border-box}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif; margin:0;background:var(--bg);color:#222}
+.container{max-width:var(--maxw);margin:0 auto;padding:20px}
+.site-header{background:#fff;border-bottom:1px solid #e6e6e6}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand a{color:#222;text-decoration:none}
+.nav a{margin-left:12px;text-decoration:none;color:var(--muted)}
+.hero{display:flex;gap:20px;align-items:center;background:var(--card);padding:20px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.05)}
+.avatar{width:120px;height:120px;object-fit:cover;border-radius:8px}
+.projects{display:flex;gap:12px;margin-top:12px}
+.project-card{background:var(--card);padding:12px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,.04);flex:1}
+.btn{display:inline-block;padding:8px 14px;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none}
+.contact-form{max-width:600px;background:var(--card);padding:18px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.04)}
+.contact-form input,.contact-form textarea{width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px}
+.contact-form button{background:var(--accent);color:#fff;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
+.flashes{list-style:none;padding:0}
+.flash.success{color:green}
+.flash.error{color:crimson}
+.site-footer{text-align:center;color:var(--muted);padding:18px 0;margin-top:24px}
